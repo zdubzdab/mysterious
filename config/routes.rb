@@ -7,6 +7,7 @@ Mysterious::Application.routes.draw do
     scope module: :v1,
               constraints: ApiConstraints.new(version: 1, default: true) do
       resources :users
+      resources :sessions, :only => [:create, :destroy]
     end
   end
 end
