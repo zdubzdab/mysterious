@@ -93,6 +93,7 @@ GEM
       json (~> 1.4)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
+    rolify (5.1.0)
     rspec-core (3.4.4)
       rspec-support (~> 3.4.0)
     rspec-expectations (3.4.0)
@@ -152,6 +153,7 @@ DEPENDENCIES
   ffaker!
   jquery-rails
   rails (= 4.0.2)
+  rolify
   rspec-rails
   sass-rails (~> 4.0.0)
   sdoc
